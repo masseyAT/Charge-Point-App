@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+    <fragment
+        android:id="@+id/google_map_home"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="288dp"
+        android:layout_height="58dp"
+
+
+        android:layout_alignBottom="@+id/google_map_home"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_shape"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

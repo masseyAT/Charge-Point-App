@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChargingPointsComplete</string>
+    <string name="map_key" translatable="false"></string>
+
+</resources>

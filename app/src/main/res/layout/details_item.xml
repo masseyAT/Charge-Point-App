@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2e2e2e"
+    android:layout_marginTop="4dp"
+    >
+
+
+    <TextView
+        android:id="@+id/connector_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="connector_type"
+        android:gravity="center"
+        android:textSize="22dp"
+
+        android:layout_marginTop="40px"
+
+        android:textColor="#008577"
+        />
+
+    <TextView
+        android:id="@+id/ratedOutputKw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ratedOutputKw"
+        android:layout_below="@+id/chargeMethod"
+        android:textSize="16dp"
+
+        android:layout_marginTop="10px"
+
+        android:textColor="#d3d2d2"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/chargeMethod"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chargeMethod"
+
+
+        android:layout_below="@+id/connector_type"
+
+        android:textColor="#d3d2d2"/>
+
+
+
+    <TextView
+        android:id="@+id/inService"
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inService"
+
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/ratedOutputKw"
+        android:textColor="#d3d2d2"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/connector_type"
+        android:layout_alignTop="@+id/inService"
+        android:layout_alignBottom="@+id/inService"
+        android:layout_alignRight="@+id/inService"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="-3dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>

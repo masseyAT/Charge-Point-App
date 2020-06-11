@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout"
+    android:background="#2A2829"
+    android:layout_marginBottom="2dp">>
+
+    <TextView
+        android:id="@+id/chargeDeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chargeDeviceName"
+        android:textSize="22dp"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="50px"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/postCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="postCode"
+        android:layout_below="@+id/chargeDeviceName"
+        android:textSize="16dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="8px"
+        android:layout_marginBottom="30px"
+        android:textColor="#d3d2d2"
+        />
+
+    <TextView
+        android:id="@+id/connector"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="connector"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="10dp"
+
+        android:layout_below="@id/postCode"
+
+        android:textColor="#d3d2d2"/>
+
+
+
+</RelativeLayout>
