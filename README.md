@@ -1,6 +1,7 @@
 # Charge Point App
  
 Application designed to aid users of electric cars to find a suitable charge point for thier car and give them guidance.
+Google Maps API has been removed, so that part of the app will not work.
 
 ## Installation
 
